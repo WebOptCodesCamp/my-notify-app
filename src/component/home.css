@@ -1,0 +1,99 @@
+.main{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    
+}
+
+.head{
+    background: rgb(4, 4, 53);
+    height: 50px;
+    z-index: 8;
+    width: 100%;
+    position: fixed;
+    display: flex;
+    align-items: baseline;
+}
+
+
+.aside{
+    display: flex;
+}
+
+.sidebar{
+    width: 18%;
+    height: 100vh;
+    z-index: 0;
+    padding-top: 88px;
+    background: rgb(39, 20, 54);
+    position: static;
+    padding-right: 3px;
+    overflow-y: hidden;
+}
+
+
+
+.subtext{
+    color: white;
+    font-weight: 900;
+    font-family: Cambria, monospace;
+    margin-left: 12px;
+    cursor: pointer;
+    margin-top: 8px;
+    margin-bottom: 18px;
+    display: flex;
+    justify-content: space-around;
+}
+.subtext:hover{
+    opacity: 0.5;
+}
+.sidecon{
+    padding: 4% 12px;
+    text-align: center;
+}
+.contitle{
+    color: rgb(53, 131, 131);
+    font-weight: 700;
+    margin-bottom: 24px;
+    margin-right: 10px;
+    padding-bottom: 40px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.stats{
+    text-align: left;
+    margin-left: 12px;
+    font-size: 15px;
+    color: rgb(43, 43, 100);
+    
+    cursor: pointer;
+    
+}
+
+.stats:hover{
+    color: rgb(5, 97, 36);
+    opacity: 0.7;
+    text-shadow: 1px 2px green;
+    font-weight: 600;
+}
+
+.content{
+    width: 100%;
+    height: calc(100vh-50px);
+    background: rgb(21, 21, 70);
+    overflow-y: scroll;
+    
+}
+
+.push{
+    margin-right: 6px;
+    margin-left: 16px;
+}
+
+.place{
+    display: flex;
+    align-items: center;
+    width:100%;
+    height: 30px;
+    margin-bottom: 18px;
+}
