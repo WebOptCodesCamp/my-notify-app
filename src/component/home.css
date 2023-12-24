@@ -26,11 +26,10 @@
     z-index: 0;
     padding-top: 88px;
     background: rgb(39, 20, 54);
-    position: static;
+    position: fixed;
     padding-right: 3px;
     overflow-y: hidden;
 }
-
 
 
 .subtext{
@@ -78,10 +77,12 @@
 }
 
 .content{
-    width: 100%;
+    width: 80%;
     height: calc(100vh-50px);
     background: rgb(21, 21, 70);
     overflow-y: scroll;
+    margin-left: 18%;
+    overflow-x: hidden;
     
 }
 
@@ -96,4 +97,10 @@
     width:100%;
     height: 30px;
     margin-bottom: 18px;
+}
+
+
+.select{
+    background: rgb(44, 43, 43);
+    padding: 1px 0;
 }

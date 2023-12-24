@@ -10,7 +10,7 @@ const videos = [
 
 {
     user:"Van keith",
-    title:"HOW TO DRIVE LORRIES - TUTORIAL",
+    title:"TOP 5 BEST VIDEO EDITING SOFTWARE",
     views:"127.9k",
     likes:"100k",
     thumb:"",
@@ -51,7 +51,7 @@ const videos = [
    */
       {
        user:"Becky mary",
-       title:"HOW TO PREPARE UGALI WITH BEEF STEW",
+       title:"A DAY IN THE LIFE OF SOFTWARE ENGINEER IN NEWYORK",
        views:"900k",
        likes:"41k",
        thumb:"",
